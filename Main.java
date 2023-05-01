@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println(caixa.calcularVolume());
 
-        Data data = new Data(19, 12, 2023);
+        Data data = new Data(0, 0, 0);
         System.out.println(
         data.formatarData(data.dia,data.mes,data.ano, "/")
         );
